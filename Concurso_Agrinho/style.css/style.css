@@ -1,0 +1,113 @@
+/*parte do fundo*/
+body{
+    margin: 5px;
+    padding: 5px;
+    border: 0px;
+    background-repeat: no-repeat;
+}
+/*menu*/
+.menu{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+   background-color: rgb(118, 207, 145);
+    text-align: center;
+    font-family: calibri;
+    font-size: 30px;
+}
+.menu ul,li,a{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+.menu a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding-left: 65px;
+    padding-right: 56px;
+}
+.menu a:hover{
+    color: rgb(0, 0, 0);
+    background-color: rgb(16, 139, 43);
+}
+.menu ul {
+    list-style-type: none;
+}
+.menu li {
+   display: inline;
+}.conteudo{
+    margin-top: 20px;
+    border-top: 0;
+    padding-top: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+    background-color: aliceblue;
+}
+.conteudo p{
+    text-align: justify;
+    font-family: calibri;
+    padding-left: 20px;
+    padding-right: 20px;
+    justify-content: space-between;
+}
+.conteudo h1{
+    margin-top: 0px;
+    padding-top: 0px;
+    border-top: 0px;
+    text-align: center;
+    font-family: calibri;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    font-family: sans-serif;
+    background-image: url();
+    background-color: fallback; 
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed; 
+    justify-content: space-between;
+}
+contatos.html{
+    margin: 0;
+    padding: 0;
+    background-color: fallback;
+    background-size: cover;  
+    }
+    a, a img {
+        text-decoration: none;
+        border: none;
+    }
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+    .principal {
+        width: 60%;
+        color: rgb(4, 39, 4);
+        margin: 0 auto; /* CENTRALIZA A DIV PRINCIPAL EM RELAÇÃO AO BODY*/
+    }
+    /*cabeçalho*/
+    header {
+        height: 100px;
+        display: flex; /*ativa a flexbox layout*/
+        justify-content: space-between; /* alinha os itens dentro do container ao longo do eixo principal */
+        align-items: center; /* alinha os itnes ao longo do eixo cruzado */
+    }
+    .logo-cabecalho a{
+        font-size: 50px;
+        font-style: italic;
+        color: rgb(8, 43, 23);
+        padding: 20px 0;
+    }
+    .pesquisa input[type="text"], .pesquisa input[type="submit"]{
+        margin-top: 10px;
+    }
+    /*menu de navegação*/
+    nav.menu {
+        background: #125103;
+    }
+    
